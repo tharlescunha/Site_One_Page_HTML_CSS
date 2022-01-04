@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+section.module2.content2{
+    padding: 40px 0;
+    color: #fff;
+    background-color: #000;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 900;
+    color: #000;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display: block;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+}
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+section.module.parallax-1{
+    background-image: url("https://image.freepik.com/fotos-gratis/masculino-trabalhador-em-uma-fabrica_1303-14266.jpg");
+}
+section.module.parallax-2{
+    background-image: url("https://image.freepik.com/fotos-gratis/jovem-bonito-trabalhando-em-uma-fabrica_1303-26617.jpg");
+}
+section.module.parallax-3{
+    background-image: url("https://img.freepik.com/fotos-gratis/homem-que-trabalha-na-fabrica-de-aco-e-equipamentos-para-producao-de-aco_1303-22925.jpg?size=338&ext=jpg");
+}
+section.module.parallax h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav .logo{
+    margin-left: 20px;
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 7px 9px;
+}
+nav a{
+    margin-top: 11px;
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    margin-right: 10px;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color: #e4e4e4;
+    color: #333;
+}
